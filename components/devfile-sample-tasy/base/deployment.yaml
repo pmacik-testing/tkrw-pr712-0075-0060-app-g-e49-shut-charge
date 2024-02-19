@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-tasy
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0060-tenant/tkrw-pr712-0075-0060-app/devfile-sample-tasy@sha256:b47999e387a6a5b4a9318084c743c0b3d3c89c57cbd15230dc64342e0c2bf5c7
         name: my-nodejs
         ports:
         - containerPort: 3001
